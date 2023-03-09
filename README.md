@@ -14,13 +14,13 @@
 Projeyi klonlayın
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/BunyaminMete/beije-case.git
 ```
 
 Proje dizinine gidin
 
 ```bash
-  cd my-project
+  cd beije-case
 ```
 
 Gerekli paketleri yükleyin
@@ -32,7 +32,7 @@ Gerekli paketleri yükleyin
 Sunucuyu çalıştırın
 
 ```bash
-  npm run start
+  npm start
 ```
 
   
