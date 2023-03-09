@@ -1,0 +1,21 @@
+.resetbutton {
+  border: none;
+  letter-spacing: 0.1px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: -3px;
+  height: 50px;
+  border-radius: 30px;
+  color: rgb(66, 66, 66);
+}
+
+.resetbutton:hover {
+  background-color: rgb(178, 178, 178, 0.2);
+}
+
+#packageLabel {
+  font-size: 18px;
+  font-weight: 600;
+}

@@ -1,0 +1,21 @@
+.leftcontainer {
+  max-width: 600px;
+  height: 270px;
+  padding: 40px;
+}
+
+.svgpath3 {
+  fill: white;
+}
+
+.svgpath4 {
+  fill: white;
+}
+
+.sublabel {
+  margin-top: 20px;
+}
+
+.hrline {
+  border: 1px solid rgb(92, 91, 91);
+}

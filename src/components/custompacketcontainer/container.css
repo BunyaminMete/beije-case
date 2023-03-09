@@ -1,0 +1,190 @@
+#crpackage {
+  font-size: 28px;
+  font-weight: 500;
+  max-width: 700px;
+}
+
+#howitworks {
+  margin-top: 10px;
+  font-weight: 400;
+  float: right;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1070px) {
+  #howitworks {
+    display: none;
+  }
+}
+
+.altdesc {
+  margin-top: 20px;
+}
+
+.showCard {
+  display: none;
+}
+
+#closeCard {
+  display: none;
+}
+
+@media screen and (max-width: 860px) {
+  #card {
+    display: none;
+  }
+
+  .ozelpaketyazi {
+    font-size: 24px;
+  }
+
+  .blackbg {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(2, 2, 2, 0.8);
+  }
+
+  #cardMobile {
+    display: block;
+  }
+
+  #closeCard {
+    display: block;
+    position: absolute;
+    z-index: 5;
+    left: 330px;
+    top: 25px;
+    height: 30px;
+    background: transparent;
+    border: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  #closeCard:hover {
+    background: gainsboro;
+  }
+
+  .card-child {
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px !important;
+    margin-left: 0px !important;
+  }
+  .shopping {
+    width: 390px !important;
+    border-radius: 0 !important;
+  }
+
+  #beije {
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 300px !important;
+    height: 160px !important;
+  }
+
+  .shopbutton {
+    width: 340px !important;
+    height: 45px !important;
+    margin-left: 30px !important;
+  }
+
+  .shopbuttonDisabled {
+    width: 340px !important;
+    height: 45px !important;
+    margin-left: 30px !important;
+  }
+
+  .showCard {
+    background-color: #3b3737;
+    text-decoration: none;
+    border: none;
+    border-radius: 40px;
+    height: 55px;
+    width: 100%;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 600;
+    display: block;
+  }
+}
+
+.card-child {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin-left: 100px;
+}
+
+.shopping {
+  width: 500px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+#beije {
+  margin-left: 50px;
+  margin-top: 20px;
+  width: 400px;
+  height: 200px;
+}
+
+.label2month {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.month2 {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+.ozelpaketyazi {
+  margin-left: 20px;
+  position: relative;
+  top: 20px;
+}
+
+.shopbuttonDisabled {
+  background-color: rgb(230, 230, 230);
+  text-decoration: none;
+  border: none;
+  border-radius: 40px;
+  width: 400px;
+  height: 55px;
+  color: rgb(158, 156, 156);
+  margin: 30px;
+  margin-left: 50px;
+  font-size: 18px;
+  cursor: default;
+  font-weight: 500;
+}
+
+.shopbutton {
+  background-color: #3b3737;
+  text-decoration: none;
+  border: none;
+  border-radius: 40px;
+  width: 400px;
+  height: 55px;
+  color: white;
+  margin: 30px;
+  margin-left: 50px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.shopbutton:hover {
+  background-color: rgb(42, 40, 40);
+}
